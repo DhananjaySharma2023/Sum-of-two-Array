@@ -1,1 +1,24 @@
-# Sum-of-two-Array
+//# Sum-of-two-Array
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	int i,a[4]={11,22,33,44},b[4]={22,33,44,55},c[4];
+	for(i=0;i<4;i++)
+	{
+		cout<<a[i]<<"\t";
+	}
+	for(i=0;i<4;i++)
+	{
+		cout<<b[i]<<"\t";
+	}
+	for(i=0;i<4;i++)
+	{
+		c[i]=a[i]+b[i];                      
+	    cout<<endl<<c[i]<<"\t";
+	}
+	                     
+	
+	return 0;
+}
