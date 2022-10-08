@@ -2,19 +2,13 @@
 using namespace std;
 int main()
 {
-	char ch;
-	cin>>ch;
-	if(ch>='a' && ch<='z')
+	int n;
+	cin>>n;
+	int i;
+	i = 1;
+	while(i<=n)
 	{
-		cout<<"This is a Lower Case."<<endl;
+		cout<<i<<" ";
+		i=i+1;
 	}
-	else if(ch>='A' && ch<='Z')
-	{
-		cout<<"This is a Upper Case."<<endl;
-	}
-	else
-	{
-		cout<<"This is Numeric."<<endl;
-	}
-	return 0;
 }
